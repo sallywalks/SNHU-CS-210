@@ -1,0 +1,16 @@
+Declare a variable to point to an output file for writing:
+ofstream outputFile("FahrenheitTemperatures.txt");
+
+Use the formula to convert Celsius to Fahrenheit (if needed):
+Fahrenheit = (Celsius * 9 / 5) + 32;
+
+Write each city and its temperature in Fahrenheit:
+Toronto 47
+Lima 66
+Istanbul 57
+Lagos 81
+Shanghai 61
+Sydney 64
+
+Close the file when done:
+outputFile.close();
